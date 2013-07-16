@@ -1,0 +1,1 @@
+C:\Windows\System32\wbem\WMIC.exe /OUTPUT:CPU_list.txt CPU LIST FULL

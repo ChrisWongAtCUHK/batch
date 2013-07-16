@@ -1,0 +1,119 @@
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Server name 
+Printer name Send To OneNote 2013
+Share name 
+Driver name Send to Microsoft OneNote 15 Driver
+Port name nul:
+Comment 
+Location 
+Print processor winprint
+Data type RAW
+Parameters 
+Attributes 576
+Priority 1
+Default priority 0
+Average pages per minute 0
+Printer status Idle 
+Extended printer status Unknown 
+Detected error state Unknown 
+Extended detected error state Unknown 
+
+Server name 
+Printer name Microsoft XPS Document Writer
+Share name 
+Driver name Microsoft XPS Document Writer
+Port name XPSPort:
+Comment 
+Location 
+Print processor winprint
+Data type RAW
+Parameters 
+Attributes 576
+Priority 1
+Default priority 0
+Average pages per minute 0
+Printer status Idle 
+Extended printer status Unknown 
+Detected error state Unknown 
+Extended detected error state Unknown 
+
+Server name 
+Printer name Fax
+Share name 
+Driver name Microsoft Shared Fax Driver
+Port name SHRFAX:
+Comment 
+Location 
+Print processor winprint
+Data type RAW
+Parameters 
+Attributes 16448
+Priority 1
+Default priority 0
+Average pages per minute 0
+Printer status Idle 
+Extended printer status Unknown 
+Detected error state Unknown 
+Extended detected error state Unknown 
+
+Server name 
+Printer name CutePDF Writer
+Share name 
+Driver name CutePDF Writer
+Port name CPW2:
+Comment 
+Location 
+Print processor winprint
+Data type RAW
+Parameters 
+Attributes 576
+Priority 1
+Default priority 0
+Average pages per minute 0
+Printer status Idle 
+Extended printer status Unknown 
+Detected error state Unknown 
+Extended detected error state Unknown 
+
+Server name 
+Printer name \\ifxdb7\Canon iR C2380/C2550
+Share name Canon iRC 2550i
+Driver name Canon iR C2380/C2550
+Port name 192.168.20.7
+Comment 
+Location 
+Print processor winprint
+Data type RAW
+Parameters 
+Attributes 139800
+Priority 1
+Default priority 0
+Average pages per minute 0
+Printer status Idle 
+Extended printer status Unknown 
+Detected error state Unknown 
+Extended detected error state Unknown 
+
+Server name 
+Printer name \\IFXDB7\HP LaserJet Professional P1102w
+Share name HP_P1102W
+Driver name HP LaserJet Professional P1102w
+Port name 192.168.20.8
+Comment 
+Location 
+Print processor HP1100PrintProc
+Data type IMF
+Parameters 
+Attributes 141852
+Priority 1
+Default priority 0
+Average pages per minute 0
+Printer status Idle 
+Extended printer status Unknown 
+Detected error state Unknown 
+Extended detected error state Unknown 
+
+Number of local printers and connections enumerated 6
