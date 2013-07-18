@@ -16,6 +16,10 @@ set endTime=%tmp:~11,5%
 echo %endDate%
 echo %endTime%
 
+rem TODO:
+rem		1. find date & time from a single file, e.g. someCmd D:\tmp\tmp.txt
+rem		2. loop through the current directory to list all files including those in subdirectories, like dir /b /s
+
 goto end
 :usage
 echo %0 startdate-time enddate-time
