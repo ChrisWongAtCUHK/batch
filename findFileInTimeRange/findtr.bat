@@ -1,8 +1,20 @@
 @echo off
 if "%1" == "" goto usage
 if "%2" == "" goto usage
-echo %1
-echo %2
+
+rem get the input start date & time
+set tmp=%1
+set startDate=%tmp:~0,10%
+set startTime=%tmp:~11,5%
+echo %startDate%
+echo %startTime%
+
+rem get the input end date & time
+set tmp=%2
+set endDate=%tmp:~0,10%
+set endTime=%tmp:~11,5%
+echo %endDate%
+echo %endTime%
 
 goto end
 :usage
