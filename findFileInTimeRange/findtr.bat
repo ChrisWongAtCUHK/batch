@@ -8,20 +8,20 @@ rem get the path to be find
 set findPath=%1
 
 rem get the input start date & time
-set tmp=%2
-set startDate=%tmp:~0,10%
+set myTmp=%2
+set startDate=%myTmp:~0,10%
 
 call dateToJulian %startDate%
 set startDateDayNum=%JDN%
 
 rem get the input end date & time
-set tmp=%3
-set endDate=%tmp:~0,10%
+set myTmp=%3
+set endDate=%myTmp:~0,10%
 call dateToJulian %endDate%
 set endDateDayNum=%JDN%
 
 rem TODO:
-rem		1. find date & time from a single file, e.g. someCmd D:\tmp\tmp.txt
+rem		1. find date & time from a single file, e.g. someCmd D:\myTmp\myTmp.txt
 rem		2. loop through the current directory to list all files including those in subdirectories, like dir /b /s
 setlocal ENABLEDELAYEDEXPANSION
 
