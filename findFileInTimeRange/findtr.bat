@@ -2,6 +2,7 @@
 
 if "%1" == "" goto usage
 if "%2" == "" goto usage
+if "%3" == "" goto usage
 
 rem get the path to be find
 set findPath=%1
@@ -46,9 +47,12 @@ for /F "tokens=1-5 delims=" %%a in ('dir /s %findPath%') do (
 ::				echo %startDateDayNum%, %endDateDayNum%, !fileDate!, !fileTime!, !fileName!, !JDN!
 					if !JDN! geq %startDateDayNum% (
 						if !JDN! leq %endDateDayNum% (
-							if "!fileTime!" neq "." (
-								if "!fileTime!" neq ".." (
-									echo !fileDate!     !fileTime!     !directory!\!fileName!
+							if "!fileName!" neq "." (
+								if "!fileName!" neq ".." (
+::									check if it is directory
+									if not exist !directory!\!fileName!\nul (
+										echo !fileDate!     !fileTime!     !directory!\!fileName!
+									)
 								)
 							)
 						)
